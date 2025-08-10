@@ -1,0 +1,1 @@
+docker build . --build-arg BUILD_ARCH=aarch64 --build-arg BUILD_FROM=ghcr.io/home-assistant/amd64-base --build-arg PORTAINER_VERSION=2.27.9 -t jkuamr0210/hass-portainer-aarch64:2025.7.0
